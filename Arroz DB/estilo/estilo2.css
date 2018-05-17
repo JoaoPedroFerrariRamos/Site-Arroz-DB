@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* css pagina 2 */
+.container, .container-fluid{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.row{
+}
+[class*="col-"], header, footer, nav, aside, section, div[role="main"]{
+	
+	/*background-color: #F5F5F5;*/
+	background-color: #F9FBE7;
+	text-align: center;
+
+}
+div[role="main"]{
+	background-color: #FFF;
+	border: solid 1px;
+}
+div[role="main"], aside{
+	/*min-height: 600px;	/* Altura mínima */
+}
+body{
+	background-image: url(img/01.JPG);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.parag{
+	text-align: left;
+	text-align: justify;
+	font-size: 15px;
+}
+.input{
+	background-color: #FFF;
+}
+.tit1{
+	background-color: transparent;
+	border:none;
+	font-family: "lucida calligraphy";
+}
+.footer{
+	background-color: transparent;
+	border:none;
+	font-family: "lucida calligraphy";
+	padding: 10px;
+}
+.menu{
+	padding: 10px;
+	font-family: "lucida calligraphy";
+	background-color: transparent;
+}
+.espaço{
+	line-height: 5px;
+}
+.padding{
+	padding: 10px;
+}
+.centro{
+	margin: 0 auto;
+}
+.lado{
+	left: 100px;
+}
+.bordi{
+	border: none;
+}
+.almentafonte{
+	font-size: 40px;
+	font-family: "system";
+}
+.blocos{
+	display: inline-block;
+}
+.fontcor{
+	color: #000000;
+}
